@@ -46,8 +46,9 @@ Remove Duplicates: Use the practice ID to eliminate duplicate entries.
 ## 📦 Required Packages
 Ensure the following packages are installed before running the scripts:
 
-Selenium
-Pandas
+- Selenium
+- Pandas
 
-If they are not installed, simply run the following command in your command prompt.
+If they are not installed, simply run the following command in your command prompt:
+
 pip install selenium pandas
