@@ -1,5 +1,5 @@
 # 🏥 Doctolib Web Scraping Project
-This project aims to build a comprehensive database on appointment availability of psychologists on Doctolib offering first-time consultations using the Selenium python package to scrape data from the popular French doctor bookings website Doctolib. The data collection is divided into two key steps, outlined below:
+This project aims to build a comprehensive database on appointment availability of psychologists on Doctolib offering first-time consultations using the Selenium python package to scrape data from the popular French doctor bookings website Doctolib. Overall, information from around 4,000 psychologists was scraped. The data collection was divided into two key steps, outlined below:
 
 ## ⚙️ Code Step 1: Collecting Basic Doctor Information
 ### Objective
