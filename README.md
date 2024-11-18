@@ -30,3 +30,24 @@ This step complements the initial database by including appointment availability
 
 ### Script:
 Jupyter Notebook - Selenium doctolib Part II
+
+## ⚠️ Considerations
+Scraping the Doctolib website can be challenging due to potential timeouts caused by a high volume of requests and rotating search results. To mitigate these issues, the following measures were implemented:
+
+Proxy Rotators: To prevent IP bans and distribute requests more evenly.
+Random Timers: Introducing delays between requests to simulate human browsing behavior.
+Simulated Human Interaction: Randomized scrolling and clicking patterns to mimic typical user activity.
+Given time constraints, the best strategy is to:
+
+Limit Timer Lengths: This helps optimize run-time while maintaining effectiveness.
+Partial Saves: Save data incrementally to avoid data loss during long scraping sessions.
+Remove Duplicates: Use the practice ID to eliminate duplicate entries.
+
+## 📦 Required Packages
+Ensure the following packages are installed before running the scripts:
+
+Selenium
+Pandas
+
+If they are not installed, simply run the following command in your command prompt.
+pip install selenium pandas
